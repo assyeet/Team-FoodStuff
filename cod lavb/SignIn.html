@@ -3,9 +3,9 @@
 <head>
 
     <title></title>
-    <link rel="shortcut icon" href="picture/logo1.png" type="image/png" >
+    <link rel="shortcut icon" href="public/images/logo.jpg" type="image/png" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel = "stylesheet" href = "css/style.css"/>
+    <link rel = "stylesheet" href = "public/css/style.css"/>
 </head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,26 +22,25 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
 <header class = "navBar">
-    <img class ="logoOfNav" src = "picture/logo2.png" alt = "logo">
+    <img class ="logoOfNav" src = "public/images/lg.png" alt = "logo">
     <nav class="navbar navbar-dark bg-dark">
         <ul class= "lineOfNav">
-            <li><a class="navbarItems" href = main.html >Home</a></li>
+             <li><a class="navbarItems" href = "main.html" >Home</a></li>
             <li><a class="navbarItems" href = product.html >Product Catalog</a></li>
             <li><a class="navbarItems" href = payment.html >Payment</a></li>
             <li><a class="navbarItems" href = delivery.html >Delivery</a></li>
-            <li><a class="navbarItems" href = "#mainWord" >About Us</a></li>
+            <li><a class="navbarItems" href = about.html >About Us</a></li>
             <li><a class="navbarItems" href = "#foot">Contact</a></li>
         </ul>
     </nav>
-    <a class = "signbtn" href = "registration.html"><button class="signbtn1">Sign in</button></a>
+    <a class = "signbtn" href = "/foodstuff/webef/registration.html"><button class="signbtn1">Sign in</button></a>
 </header>
 <br><br><br>
 
 
-<form>
+<form action="public/auth.php" method="post">
     <div class="register" >
         <div class = "col-xl-12 col-md-12 col-sm-12">
-            <center>
         <div style="margin-left: 10%;margin-right: 10%">
             <h2>Sign In</h2>
             <p>Please fill in this form to Log In.</p>
@@ -52,14 +51,14 @@
             <input type="text" placeholder="Enter Email" name="email" id="email"  required  style=" border:none; width: 50%;"><br><br>
 
             <label for="psw-repeat"><b>Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat"  style=" border:none;width: 50%;" required> <br><br>
+            <input type="password" placeholder="Password" name="password" id="psw-repeat"  style=" border:none;width: 50%;" required> <br><br>
 
 
             <hr style="margin-left:0; margin-top:30px; width:100%; height:3px; border-width:0; color:grey; background-color:grey">
 
-            <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Register</button>
+            <button type="submit" class="btn btn-outline-secondary btn-lg btn-block">Log in</button>
             <div class="containerSignIn">
-                <p>Did not have an account? <a href = registration.html>Register </a> or <a href = main.html>Go back</a></p>
+                <p>Did not have an account? <a href = /foodstuff/webef/registration.html>Register </a> or <a href = /foodstuff/webef/main.html>Go back</a></p>
             </div>
         </div>
     </div>

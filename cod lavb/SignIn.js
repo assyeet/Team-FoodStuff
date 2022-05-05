@@ -2,6 +2,6 @@ const express = require("express");
 const router = express.Router();
 router
     .route("/")
-    .get((req, res) => res.sendFile(__dirname +"/main.php"))
-    .post((req, res) => res.send("POST HOME"));
+    .get((req, res) => res.sendFile(__dirname +"/SignIn.html"))
+    .post((req, res) => res.send("POST SignIn"));
 module.exports = router;
