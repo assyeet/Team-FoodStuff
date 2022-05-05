@@ -3,9 +3,9 @@
 <head>
 
     <title></title>
-    <link rel="shortcut icon" href="picture/logo1.png" type="image/png" >
+    <link rel="shortcut icon" href="public/images/logo.jpg" type="image/png" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel = "stylesheet" href = "css/style.css"/>
+    <link rel = "stylesheet" href = "public/css/style.css"/>
 </head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,23 +23,29 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <header class = "navBar">
-    <img class ="logoOfNav" src = "picture/logo2.png" alt = "logo">
+    <img class ="logoOfNav" src = "public/images/lg.png" alt = "logo">
     <nav class="navbar navbar-dark bg-dark">
         <ul class= "lineOfNav">
-            <li><a class="navbarItems" href = main.html >Home</a></li>
-            <li><a class="navbarItems" href = "file:///C:/Users/ASS/Desktop/cod%20lavb/product.html" >Product Catalog</a></li>
+             <li><a class="navbarItems" href = "main.html" >Home</a></li>
+            <li><a class="navbarItems" href = product.html >Product Catalog</a></li>
             <li><a class="navbarItems" href = payment.html >Payment</a></li>
             <li><a class="navbarItems" href = delivery.html >Delivery</a></li>
-            <li><a class="navbarItems" href = "#mainWord" >About Us</a></li>
+            <li><a class="navbarItems" href = about.html >About Us</a></li>
             <li><a class="navbarItems" href = "#foot">Contact</a></li>
+			  <a class = "signbtn" href = "registration.html"><button class="signbtn1">Sign in/ Sign up</button></a>
         </ul>
     </nav>
-    <a class = "signbtn" href = "registration.html"><button class="signbtn1">Sign in</button></a>
+  
+	
+	
+	
+	
+	
 </header>
 <br><br><br>
 
 
-<form name = "myform" method="post" onsubmit = "return validate()">
+<form action="public/check.php"  name = "myform" method="post" onsubmit = "validate()">
     <div class="register" >
         <div style="margin-left: 10%;margin-right: 10%;">
         <h2>Register</h2>
@@ -107,7 +113,7 @@
 
             <input class = "typeB" type="submit" style="background-color: grey; margin-left: 40%" value="Sign Up" >
             <div class="containerSignIn">
-            <p>Already have an account? <a href = SignIn.html>Sign in </a> or <a href = main.html>Go back</a></p>
+            <p>Already have an account? <a href = /foodstuff/webef/SignIn.html>Sign in </a> or <a href = /foodstuff/webef/main.html>Go back</a></p>
         </div>
         </div>
         </div>
