@@ -179,21 +179,16 @@ header{
 /* ======= footer ========== */
 
 footer {
-  padding-top: 20px;
-  background: #343a40;
-  font-family: 'Raleway';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 7px;
+    background-color: #343a40;
+    color: white;
+    display: block;
 }
-
-.footer_inside {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer_item {
-  color: white;
-  width: 31%;
-}
-
 .italic {
   font-family: 'Arial';
   font-style: italic;
