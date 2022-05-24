@@ -12,8 +12,11 @@ h1{
 
 .logoOfNav {
     cursor: pointer;
-    max-width: 8%;
+    max-width: 7%;
     margin-right:auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-left: 20px;
 }
 
 
@@ -24,7 +27,7 @@ footer {
     box-sizing: border-box;
     text-align: center;
     padding: 7px;
-    background-color: #343a40;
+    background-color: #347b27;
     color: white;
     display: block;
 }
@@ -38,7 +41,7 @@ header{
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
-    background-color: #343a40;
+    background-color: #347b27;
     align-items: center;
     font-color: white;
 }
@@ -113,7 +116,8 @@ li, .navbarItems{
     font-weight: 1000;
     font-size: 16px;
     padding: 10px 20px;
-    background-color: rgb(255, 222, 89);
+	color: white;
+    background-color: #347b27;
     border: none;
     border-radius: 80px;
     cursor: pointer;
@@ -121,7 +125,7 @@ li, .navbarItems{
 }
 
 .signbtn1:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: #347b27;
 }
 .moreButton{
     font-family: 'Montserrat', sans-serif;
