@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
@@ -51,9 +52,11 @@ li, .navbarItems{
 
 .logoOfNav {
     cursor: pointer;
-    max-width: 10%;
+    max-width: 7%;
     margin-right:auto;
+	margin-bottom: 20px;
 	padding: 10px;
+	padding-left: 20px;
 }
 
 .lineOfNav{
@@ -72,7 +75,7 @@ header{
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
-    background-color: #343a40;
+    background-color: #347b27;
     align-items: center;
     font-color: white;
 }
@@ -164,7 +167,8 @@ header{
     font-weight: 1000;
     font-size: 15px;
     padding: 5px;
-    background-color: rgb(255, 222, 89);
+	color: white;
+    background-color: #347b27;
     border: none;
     border-radius: 80px;
     cursor: pointer;
@@ -172,7 +176,8 @@ header{
 }
 
 .signbtn1:hover{
-    background-color: rgb(255, 255, 255);
+	color: yellow;
+    background-color: #347b27;
 }
 
 
@@ -185,24 +190,19 @@ footer {
     box-sizing: border-box;
     text-align: center;
     padding: 7px;
-    background-color: #343a40;
+    background-color: #347b27;
     color: white;
     display: block;
 }
+
+
+
 .italic {
   font-family: 'Arial';
   font-style: italic;
 }
 
 
-.madeby {
-	color: white;
-  margin-top: 10px;
-  font-size: 12px;
-  padding-bottom: 20px;
-  text-align: right;
-  font-style: italic;
-}
 
 .logotipi {
     text-align: end;
